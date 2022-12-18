@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269242377817",
+    "project_id": "pettikadai-1",
+    "storage_bucket": "pettikadai-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269242377817:android:c042199d8eea74e7bcf348",
+        "android_client_info": {
+          "package_name": "com.pettikadai.pettikadai_vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269242377817-jsk17vs3g6revcpfq5mkvfo3h2orpe2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtusYcSR1cFFxiaA52Ugyq2hHOdURGtec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269242377817-jsk17vs3g6revcpfq5mkvfo3h2orpe2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
