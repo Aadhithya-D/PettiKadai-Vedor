@@ -10,22 +10,23 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/search_view_bg"
+        app:iconifiedByDefault="false"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/search_view_bg"
-        android:layout_margin="5dp"
-        app:queryHint="Search Products Here ..."
-        app:iconifiedByDefault="false"/>
+        app:queryHint="Search Products Here ..." />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_marginHorizontal="5dp"
-        android:id="@+id/rcvData"
-        android:layout_width="match_parent"
-        android:layout_height="808dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Carts available"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView"
-        tools:listitem="@layout/all_item_view" />
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
